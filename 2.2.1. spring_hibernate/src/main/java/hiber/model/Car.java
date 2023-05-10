@@ -19,7 +19,9 @@ public class Car {
     private String model;
     @Column(name = "series")
     private int series;
-    public Car(){}
+
+    public Car() {
+    }
 
     public Car(String model, int series) {
         this.model = model;
